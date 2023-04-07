@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuHome"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_baseline_view_cozy"
+        android:title="List"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menuBookmarks"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:showAsAction="ifRoom"/>
+</menu>
